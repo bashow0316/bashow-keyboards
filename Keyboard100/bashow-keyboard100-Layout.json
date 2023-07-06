@@ -105,11 +105,11 @@
       {"code": 55, "label": {"base": ".", "shifted": ">"}},
       {"code": 56, "label": {"base": "/", "shifted": "?"}},
       {
-        "code": 17493,
-        "label": {"hint": "MoveTo", "base": "#1"},
+        "code": 17451,
+        "label": {"hint": "ShiftTo", "base": "#1"},
         "target": 1,
-        "rangeStart": 17492,
-        "categories": ["layer", "movetolayer"]
+        "rangeStart": 17450,
+        "categories": ["layer", "shifttolayer"]
       }
     ],
     [
@@ -323,10 +323,11 @@
       },
       {"code": 76, "label": {"base": {"full": "Delete", "1u": "Del"}}},
       {
-        "code": 227,
-        "label": {"base": {"full": "Command", "1u": "Cmd", "short": "Cm"}},
-        "location": "left",
-        "categories": ["modifier"]
+        "code": 17492,
+        "label": {"hint": "MoveTo", "base": "#0"},
+        "target": 0,
+        "rangeStart": 17492,
+        "categories": ["layer", "movetolayer"]
       },
       {
         "code": 224,
@@ -341,10 +342,11 @@
         "categories": ["modifier"]
       },
       {
-        "code": 231,
-        "label": {"base": {"full": "Command", "1u": "Cmd", "short": "Cm"}},
-        "location": "right",
-        "categories": ["modifier"]
+        "code": 17494,
+        "label": {"hint": "MoveTo", "base": "#2"},
+        "target": 2,
+        "rangeStart": 17492,
+        "categories": ["layer", "movetolayer"]
       },
       {"code": 52, "label": {"base": "'", "shifted": "\""}},
       {"code": 49, "label": {"base": "\\", "shifted": "|"}},
@@ -367,11 +369,11 @@
         "baseCode": 56
       },
       {
-        "code": 17494,
-        "label": {"hint": "MoveTo", "base": "#2"},
-        "target": 2,
-        "rangeStart": 17492,
-        "categories": ["layer", "movetolayer"]
+        "code": 17450,
+        "label": {"hint": "ShiftTo", "base": "#0"},
+        "target": 0,
+        "rangeStart": 17450,
+        "categories": ["layer", "shifttolayer"]
       }
     ],
     [
